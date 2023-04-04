@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Proyecto Final - Ecommerce",
   "main": "index.js",
-  "author": "Enrique Chavez",
+  "author": "Sebastian Chavez",
   "license": "ISC",
   "scripts": {
     "migrate": "npx sequelize-cli db:migrate",
