@@ -1,6 +1,5 @@
 # eCommerce
 
-![Ecommerce](./assets/favicon.png)
 
 ## 🛠️**Getting Started**
 
@@ -12,8 +11,7 @@ These instructions will allow you to get a working copy of the project on your l
 
 - `v18.12.1`
 
-## **Authors** ✒️
-- _Renildo Chavez - Full Stack developer_
+## **Author** ✒️
 
 - _Sebastian Chavez - Front-end developer_
 

@@ -6,11 +6,11 @@
   "author": "Sebastian Chavez",
   "license": "ISC",
   "scripts": {
+    "dev": "nodemon ./src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "migrate": "npx sequelize-cli db:migrate",
     "init": "node ./src/app.js",
-    "start": "npm run migrate && npm run init",
-    "dev": "nodemon ./src/app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run migrate && npm run init"
   },
   "dependencies": {
     "dotenv": "^16.0.3",
