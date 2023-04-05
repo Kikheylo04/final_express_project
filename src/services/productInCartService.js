@@ -9,6 +9,27 @@ class ProductInCartService {
       throw error;
     }
   }
+  static async changePurchased(data, cartId) {
+    try {
+      const listItems = await ProductInCart.update(data, {
+        where: { cartId },
+      });
+      return listItems;
+    } catch (error) {
+      throw error;
+    }
+  }
+  static async getAllItems(cartId) {
+    try {
+      const listItems = await ProductInCart.findAll({
+        where: { cartId },
+        attributes: { exclude: ["cartId", "status"] },
+      });
+      return listItems;
+    } catch (error) {
+      throw error;
+    }
+  }
 }
 
 module.exports = ProductInCartService;
